@@ -3,7 +3,7 @@
 Introduction
 ============
 
-The collective.vaporisation addons for Plone give to the user a tag cloud portlet.
+The ``collective.vaporisation`` addons for Plone give to the user a tag cloud portlet.
 
     A tag cloud (or weighted list in visual design) is a visual depiction of keywords used
     into your site. Tags are usually single words and are normally listed alphabetically,
@@ -96,6 +96,48 @@ Tested on:
 * Plone 4.2
 * Plone 4.3
 
+Installation
+============
+
+Install ``collective.vaporisation`` by adding it to your buildout: ::
+
+  [buildout]
+
+  ...
+
+  eggs =
+      collective.vaporisation
+
+and then running "bin/buildout"
+
+Optionality, you can use the own buildout configuration provided this
+product: ::
+
+    python bootstrap.py
+
+and then running ``buildout`` like this: ::
+
+    bin/buildout
+
+Translations
+============
+
+This product has been translated into
+
+- Italian translation by:
+
+  - Mirco Angelini <mirco.angelini@redturtle.it>.
+
+  - Andrea Cecchi <andrea.cecchi85@gmail.com>.
+
+- Brazilian Portuguese translation by:
+
+  - Rafahela Garcia Bazzanella <rafahela@gmail.com>
+
+This product isn't translate into your language? please, join to
+`Plone transifex organization`_ and helps translate this product
+into your language.
+
 Credits
 =======
 
@@ -130,5 +172,11 @@ Original idea and code came from Souheil Shelfouh, that made `vaporisation`__ pr
 
 __ http://plone.org/products/vaporisation
 
+Contribute
+==========
 
+- Issue Tracker: https://github.com/RedTurtle/collective.vaporisation/issues
+- Source Code: https://github.com/RedTurtle/collective.vaporisation
+- Documentation: https://github.com/RedTurtle/collective.vaporisation/blob/master/README.rst
 
+.. _Plone transifex organization: https://www.transifex.com/projects/p/plone/
