@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-28 16:04+0000\n"
+"POT-Creation-Date: 2014-09-28 17:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,17 +21,7 @@ msgstr ""
 msgid "A portlet that displays a cloud of tags to browser through"
 msgstr ""
 
-#. Default: "Plone portlet for vaporisation tagcloud"
-#: ../configure.zcml
-msgid "Plone portlet for vaporisation tagcloud"
-msgstr ""
-
 #: ./profiles/default/portlets.xml
 msgid "Tagcloud portlet"
-msgstr ""
-
-#. Default: "Vaporisation Tagcloud portlet"
-#: ../configure.zcml
-msgid "Vaporisation Tagcloud portlet"
 msgstr ""
 

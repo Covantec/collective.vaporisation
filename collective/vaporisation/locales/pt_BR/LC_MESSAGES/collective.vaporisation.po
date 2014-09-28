@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.vaporisation\n"
-"POT-Creation-Date: 2014-09-28 16:04+0000\n"
+"POT-Creation-Date: 2014-09-28 17:51+0000\n"
 "PO-Revision-Date: 2012-02-01 14:10-0300\n"
 "Last-Translator: Rafahela Garcia Bazzanella <rafahela@gmail.com>\n"
 "Language-Team: TcheZope.org <tchezope@yahoogroups.com>\n"
@@ -74,6 +74,11 @@ msgstr "Somente palavras-chave cadastradas nestes tipos de conteúdo serão apre
 msgid "Only the objects under this directory will be counted. If empty, the portlet will search in all the site."
 msgstr "Somente as palavras-chave abaixo deste diretório serão apresentadas. Se não for selecionado um diretório, serão buscadas palavras-chave em todo o site."
 
+#. Default: "Plone portlet for vaporisation tagcloud"
+#: ../configure.zcml
+msgid "Plone portlet for vaporisation tagcloud"
+msgstr ""
+
 #: ./interfaces.py:86
 msgid "Remove from keywords list"
 msgstr "Remover da lista de palavras-chave"
@@ -121,6 +126,11 @@ msgstr "Tipos de conteúdo"
 #: ./interfaces.py:79
 msgid "Use only the keywords of this list"
 msgstr "Usar somente as palavras-chave desta lista"
+
+#. Default: "Vaporisation Tagcloud portlet"
+#: ../configure.zcml
+msgid "Vaporisation Tagcloud portlet"
+msgstr ""
 
 #: ./interfaces.py:40
 msgid "Zero displays it all."

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-28 16:04+0000\n"
+"POT-Creation-Date: 2014-09-28 17:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,6 +74,11 @@ msgstr "Solo gli oggetti di questo tipo saranno contati."
 msgid "Only the objects under this directory will be counted. If empty, the portlet will search in all the site."
 msgstr "Solo gli oggetti sotto questa cartella saranno contati. Se vuoto, la portlet cerchera' in tutto il sito."
 
+#. Default: "Plone portlet for vaporisation tagcloud"
+#: ../configure.zcml
+msgid "Plone portlet for vaporisation tagcloud"
+msgstr ""
+
 #: ./interfaces.py:86
 msgid "Remove from keywords list"
 msgstr "Parole chiave da rimuovere"
@@ -121,6 +126,11 @@ msgstr "Tipo di contenuti"
 #: ./interfaces.py:79
 msgid "Use only the keywords of this list"
 msgstr "Utilizza solo le parole chiave di questa lista"
+
+#. Default: "Vaporisation Tagcloud portlet"
+#: ../configure.zcml
+msgid "Vaporisation Tagcloud portlet"
+msgstr ""
 
 #: ./interfaces.py:40
 msgid "Zero displays it all."
