@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-28 13:39+0000\n"
+"POT-Creation-Date: 2014-09-28 16:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
 
-#: ../profiles/default/portlets.xml
+#: ./profiles/default/portlets.xml
 msgid "A portlet that displays a cloud of tags to browser through"
 msgstr ""
 
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Plone portlet for vaporisation tagcloud"
 msgstr ""
 
-#: ../profiles/default/portlets.xml
+#: ./profiles/default/portlets.xml
 msgid "Tagcloud portlet"
 msgstr ""
 
