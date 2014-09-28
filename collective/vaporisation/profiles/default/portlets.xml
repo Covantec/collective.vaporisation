@@ -3,12 +3,16 @@
      be used to register completely new column types. See CMFPlone's version
      of this file for more information.
   -->
-<portlets>
+<portlets
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="plone">
 
    <portlet
      addview="collective.vaporisation.tagcloud"
      title="Tagcloud portlet"
      description="A portlet that displays a cloud of tags to browser through"
+     i18n:attributes="title;
+                      description"
    />
 
 </portlets>

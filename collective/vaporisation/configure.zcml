@@ -18,7 +18,7 @@
       name="default"
       title="Vaporisation Tagcloud portlet"
       directory="profiles/default"
-      description=""
+      description="Plone portlet for vaporisation tagcloud"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 	

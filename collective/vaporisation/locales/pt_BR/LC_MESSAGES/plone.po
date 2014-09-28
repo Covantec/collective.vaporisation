@@ -1,0 +1,37 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-09-28 13:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+#: ../profiles/default/portlets.xml
+msgid "A portlet that displays a cloud of tags to browser through"
+msgstr ""
+
+#. Default: "Plone portlet for vaporisation tagcloud"
+#: ../configure.zcml
+msgid "Plone portlet for vaporisation tagcloud"
+msgstr ""
+
+#: ../profiles/default/portlets.xml
+msgid "Tagcloud portlet"
+msgstr ""
+
+#. Default: "Vaporisation Tagcloud portlet"
+#: ../configure.zcml
+msgid "Vaporisation Tagcloud portlet"
+msgstr ""
+
