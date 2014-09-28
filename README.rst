@@ -99,7 +99,11 @@ Tested on:
 Installation
 ============
 
-Install ``collective.vaporisation`` by adding it to your buildout: ::
+Production site
+---------------
+
+As usual in your ``zc.buildout`` configuration, you can install ``collective.vaporisation``
+by adding it to your buildout: ::
 
   [buildout]
 
@@ -108,16 +112,17 @@ Install ``collective.vaporisation`` by adding it to your buildout: ::
   eggs =
       collective.vaporisation
 
-and then running "bin/buildout"
+and then running ``bin/buildout``.
 
-Optionality, you can use the own buildout configuration provided this
-product: ::
+Development site
+----------------
 
-    python bootstrap.py
+Optionality, the development package at Github comes with a suitable ``buildout.cfg``.
+See `Source Code`_. You just need to clone that repository and play the usual commands
+``python bootstrap.py`` + ``bin/buildout``.
 
-and then running ``buildout`` like this: ::
-
-    bin/buildout
+Later you can run the Zope instance and create a new Plone site to enabled this package
+for use.
 
 Translations
 ============
@@ -180,3 +185,4 @@ Contribute
 - Documentation: https://github.com/RedTurtle/collective.vaporisation/blob/master/README.rst
 
 .. _Plone transifex organization: https://www.transifex.com/projects/p/plone/
+.. _Source Code: https://github.com/RedTurtle/collective.vaporisation
